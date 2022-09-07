@@ -23,7 +23,7 @@ The package should be available from the Add-On Modules, Install Module option o
 
 If you want to install it manually, then enter the following into the Manifest URL at the bottom of the "Install Module" window:
 
-https://github.com/farling42/fvtt-cypher-addons-compendiums/releases/latest/download/module.json
+https://github.com/farling42/fvtt-cypher-addons-extras/releases/latest/download/module.json
 
 ## Hard Dependencies
 
