@@ -42,6 +42,13 @@
         }
     ],
     "packs": [
+		{
+			"label": "Abilities",
+			"name": "abilities",
+			"path": "packs/abilities.db",
+			"system": "cyphersystem",
+			"type": "Item"
+		},
         {
             "name": "claimthesky-descriptors",
             "label": "Descriptors: Claim the Sky",
