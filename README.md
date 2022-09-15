@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/Foundry-v9-informational)
 ![Latest Release Download Count](https://img.shields.io/github/downloads/farling42/fvtt-cypher-addons-extras/latest/module.zip)
 
-# Cypher System Character Creation Pack/Compendium for non-CSRD Material
+# Cypher System Character Compendiums for Fan-Use Policy Books
 
 This is a module for use in conjunction with the [Cypher System game system for Foundry VTT](https://foundryvtt.com/packages/cyphersystem/).
 
