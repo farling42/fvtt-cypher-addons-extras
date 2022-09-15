@@ -13,7 +13,7 @@ It works with the [Cypher System Compendium](https://github.com/mrkwnzl/cyphersy
 
 Each journal entry contains a link to the PDF page containing the actual description of the ability. This uses the [PDFoundry](https://foundryvtt.com/packages/pdfoundry/) module to display the links and open the PDFs.
 
-For each type/descriptor/focus/flavor there is a link for each available ability to the abilities in the Cypher System Compendium.
+For each type/descriptor/focus/flavor there is a link for each available ability to the abilities in the Cypher SRD Compendium.
 
 Additional markers are present which work with the Sentence Linking and Creation Tool of the [Nice(TSY) Cypher Add-Ons](https://github.com/NiceTSY/nice-cypher-add-ons) module.
 
