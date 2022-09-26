@@ -1,5 +1,6 @@
 {
     "name": "cypher-addons-extras",
+    "id": "cypher-addons-extras",
     "title": "Cypher System Character Creation Pack/Compendium (for non-CSRD material)",
     "description": "A Compendium pack containing Sentence objects (Types, Descriptors, Foci, Flavors) for the non-CSRD parts of the Cypher System. It also provides flags for the Creation Tool of the 'NICE(TSY) Cypher System Add-Ons' module",
     "library": "false",
@@ -35,17 +36,13 @@
         {
             "name": "cyphersystem-compendium",
             "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json"
-        },
-        {
-            "name": "pdfoundry",
-            "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
         }
     ],
     "packs": [
 		{
 			"label": "Abilities",
 			"name": "abilities",
-			"path": "packs/abilities.db",
+			"path": "./packs/abilities.db",
 			"system": "cyphersystem",
 			"type": "Item"
 		},
