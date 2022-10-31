@@ -11,7 +11,7 @@ This is a module for use in conjunction with the [Cypher System game system for 
 
 It works with the [Cypher System Compendium](https://github.com/mrkwnzl/cyphersystem-compendium) to provide compendiums of journal entries for all the Types, Descriptors and Foci in the various non-CSRD books.
 
-Each journal entry contains a link to the PDF page containing the actual description of the ability. This uses the [PDFoundry](https://foundryvtt.com/packages/pdfoundry/) module to display the links and open the PDFs.
+Each journal entry contains a link to the PDF page containing the actual description of the ability. This uses the [PDF Pager](https://github.com/farling42/fvtt-pdf-pager/releases/latest/download/module.json) module to display the links and open the PDFs.
 
 For each type/descriptor/focus/flavor there is a link for each available ability to the abilities in the Cypher SRD Compendium.
 
@@ -27,9 +27,9 @@ https://github.com/farling42/fvtt-cypher-addons-extras/releases/latest/download/
 
 ## Hard Dependencies
 
-[Cypher System Compendium](https://github.com/mrkwnzl/cyphersystem-compendium) provides compendiums of Items (such as abilities) which are linked from the sentence journal entries provided here. See this module for how to set up PDF documents to work with pages properly.
+[Cypher SRD Compendium](https://github.com/mrkwnzl/cyphersystem-compendium) provides compendiums of Items (such as abilities) which are linked from the sentence journal entries provided here. See this module for how to set up PDF documents to work with pages properly.
 
-[PDFoundry](https://foundryvtt.com/packages/pdfoundry/) provides the PDF viewer for the links to the documentation provided in each journal entry.
+[PDF Pager](https://github.com/farling42/fvtt-pdf-pager/releases/latest/download/module.json) provides the PDF viewer for the links to the documentation provided in each journal entry.
 
 ## Soft Dependency
 

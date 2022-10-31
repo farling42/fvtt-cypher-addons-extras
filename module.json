@@ -4,9 +4,12 @@
     "title": "Cypher System Character Creation Pack/Compendium (for non-CSRD material)",
     "description": "A Compendium pack containing Sentence objects (Types, Descriptors, Foci, Flavors) for the non-CSRD parts of the Cypher System. It also provides flags for the Creation Tool of the 'NICE(TSY) Cypher System Add-Ons' module",
     "library": "false",
-    "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "9",
-    "version": "0.1.3",
+    "minimumCoreVersion": "10",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10.288"
+    },
+    "version": "0.2.0",
     "url": "https://github.com/farling42/fvtt-cypher-addons-extras",
     "manifest": "https://github.com/farling42/fvtt-cypher-addons-extras/releases/latest/download/module.json",
     "download": "https://github.com/farling42/fvtt-cypher-addons-extras/releases/download/0.1.3/module.zip",
@@ -15,7 +18,6 @@
     "system": [
         "cyphersystem"
     ],
-    "author": "Farling",
     "authors": [
         {
             "name": "Farling",
@@ -27,17 +29,24 @@
             "twitter": "@shambles42"
         }
     ],
-    "dependencies": [
-        {
-            "name": "cyphersystem",
-            "type": "system",
-            "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json"
-        },
-        {
-            "name": "cyphersystem-compendium",
-            "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json"
-        }
-    ],
+    "relationships": {
+        "systems": [{
+          "id": "cyphersystem",
+          "type": "system",
+          "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json",
+          "compatibility": {
+            "verified": "2.0.1"
+          }
+        }],
+        "requires": [{
+          "id": "cyphersystem-compendium",
+          "type": "module",
+          "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json",
+          "compatibility": {
+            "verified": "3.3.1"
+          }
+        }]
+    },
     "packs": [
 		{
 			"label": "Abilities",
@@ -50,63 +59,54 @@
             "name": "claimthesky-descriptors",
             "label": "Descriptors: Claim the Sky",
             "path": "./packs/claimthesky-descriptors.db",
-            "entity": "JournalEntry",
             "type": "JournalEntry"
         },
         {
             "name": "claimthesky-foci",
             "label": "Foci: Claim the Sky",
             "path": "./packs/claimthesky-foci.db",
-            "entity": "JournalEntry",
             "type": "JournalEntry"
         },
         {
             "name": "firstresponders-foci",
             "label": "Foci: First Responders",
             "path": "./packs/firstresponders-foci.db",
-            "entity": "JournalEntry",
             "type": "JournalEntry"
         },
         {
             "name": "firstresponders-types",
             "label": "Types: First Responders",
             "path": "./packs/firstresponders-types.db",
-            "entity": "JournalEntry",
             "type": "JournalEntry"
         },
         {
             "name": "godforsaken-descriptors",
             "label": "Descriptors: Godforsaken",
             "path": "./packs/godforsaken-descriptors.db",
-            "entity": "JournalEntry",
             "type": "JournalEntry"
         },
         {
             "name": "godforsaken-foci",
             "label": "Foci: Godforsaken",
             "path": "./packs/godforsaken-foci.db",
-            "entity": "JournalEntry",
             "type": "JournalEntry"
         },
         {
             "name": "godforsaken-types",
             "label": "Types: Godforsaken",
             "path": "./packs/godforsaken-types.db",
-            "entity": "JournalEntry",
             "type": "JournalEntry"
         },
         {
             "name": "ptolus-foci",
             "label": "Foci: Ptolus",
             "path": "./packs/ptolus-foci.db",
-            "entity": "JournalEntry",
             "type": "JournalEntry"
         },
         {
             "name": "thestarsarefire-descriptors",
             "label": "Descriptors: The Stars Are Fire",
             "path": "./packs/thestarsarefire-descriptors.db",
-            "entity": "JournalEntry",
             "type": "JournalEntry"
         }
     ]
