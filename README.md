@@ -5,6 +5,8 @@
 ![](https://img.shields.io/badge/Foundry-v9-informational)
 ![Latest Release Download Count](https://img.shields.io/github/downloads/farling42/fvtt-cypher-addons-extras/latest/module.zip)
 
+No further work will be done on this module since it did not receive approval by the Foundry company.
+
 # Cypher System Character Compendiums for Fan-Use Policy Books
 
 This is a module for use in conjunction with the [Cypher System game system for Foundry VTT](https://foundryvtt.com/packages/cyphersystem/).
